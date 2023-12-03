@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-mplus-1p-bold: "Mplus 1p Bold";
+    --font-montserrat: Montserrat;
+    --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  
+    /* font sizes */
+    --font-size-6xl: 25px;
+    --font-size-3xl: 22px;
+  
+    /* Colors */
+    --color-gray-100: #03030f;
+    --color-white: #fff;
+  }
+.glowingcircle-imp {
+    position: absolute;
+    top: -219px;
+    left: calc(50% - 690px);
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 0.01);
+    box-shadow: 0 0 34px 5px #313667, 0 0 110px 30px #0434b9 inset;
+    width: 1381px;
+    height: 1381px;
+  }
+  .bottombg {
+    position: absolute;
+    top: 1017px;
+    left: -136px;
+    background-color: var(--color-gray-100);
+    width: 2000px;
+    height: 100px;
+  }
+  .ai {
+    background: linear-gradient(180deg, #fff, #7f078b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .ai-art {
+    margin: 0;
+  }
+  .ai-art-gallery-container {
+    position: absolute;
+    top: 388px;
+    left: calc(50% - 451px);
+    font-size: 115px;
+    letter-spacing: 0.2em;
+    display: inline-block;
+    text-align: center;
+    width: 902px;
+    height: 327px;
+  }
+  .explore1 {
+    position: relative;
+    letter-spacing: 0.1em;
+  }
+  .explore {
+    position: absolute;
+    top: 336px;
+    left: calc(50% - 93px);
+    border-radius: 55px;
+    background: linear-gradient(91.69deg, #20bed4, #5926c6 89.44%);
+    width: 211px;
+    height: 46px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: var(--font-montserrat);
+  }
+  .home,
+  .top-images {
+    position: relative;
+    letter-spacing: 0.2em;
+  }
+  .top-images {
+    cursor: pointer;
+  }
+  .top {
+    position: absolute;
+    top: 52px;
+    left: calc(50% - 240px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 63px;
+    cursor: pointer;
+    font-size: var(--font-size-3xl);
+    font-family: var(--font-mplus-1p-bold);
+  }
+  .about,
+  .contact,
+  .dev,
+  .faq {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    width: 90px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .contact,
+  .dev,
+  .faq {
+    width: 49px;
+  }
+  .contact,
+  .dev {
+    width: 126px;
+  }
+  .dev {
+    width: 52px;
+  }
+  .bottom {
+    position: absolute;
+    top: 1052px;
+    left: calc(50% - 332px);
+    background-color: var(--color-gray-100);
+    width: 665px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 116px;
+    font-family: var(--font-inter);
+  }
+  .macbook-pro-16-test {
+    position: relative;
+    background-color: #0d0e25;
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+    font-family: var(--font-plus-jakarta-sans);
+  }
+  
