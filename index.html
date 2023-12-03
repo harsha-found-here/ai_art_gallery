@@ -1,45 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dev.css">
-    <title>Contact us</title>
-</head>
-
-<body>
-    <!-- Your content goes here -->
-    <div class="navbar">
-<ul>
-    <li><a href="*"> HOME</a></li>
-    <li><a href="*">TOP IMAGES</a></li>
-    <li><a href="*">LOGIN</a></li>
-
-</ul>
-</div>
-<div class="deve">
-
-    <h5 class="headdev">CONTACT US</h5>
-</div>
-<div class="devpara">
-    <p class="devpara1">Got questions or ideas? Shoot us an email at aigallery@email.com and let's start a conversation. Join our Social Media Platform community for web dev insights and behind-the-scenes peeks. While we're virtual, let's meet up online for a chat over ideas and coffee. Your feedback is our compass, guiding our journey to craft better web experiences together!
-    </p>
-</div>          
-
-</body>
-<footer class="footer">
-    <div class="navfooter">
-        <nav class="shadow">
-        <ul>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="dev.html">DEV</a></li>
-            <li><a href="contacts.html"> <u>CONTACT</u>  </a></li>
-            <li> <a href="faq.html"> FAQ</a></li>
-        
-        </ul>
-    </nav>
-        </div>
-</footer>
-
+    <link rel="stylesheet" href="test.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mplus 1p Bold:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="macbook-pro-16-test">
+      <div class="glowingcircle-imp"></div>
+      <div class="bottombg"></div>
+      <b class="ai-art-gallery-container">
+        <p class="ai-art">
+          <span class="ai">AI</span>
+          <span> ART</span>
+        </p>
+        <p class="ai-art">GALLERY</p>
+      </b>
+      <div class="explore" id="exploreContainer">
+        <b class="explore1">EXPLORE</b>
+      </div>
+      <div class="top" id="topContainer">
+        <b class="home">HOME</b>
+        <b class="top-images" id="topImagesText">TOP IMAGES </b>
+        <b class="home">LOGIN </b>
+      </div>
+      <div class="bottom">
+        <div class="about" id="aBOUTText">ABOUT</div>
+        <div class="faq" id="fAQText">FAQ</div>
+        <div class="contact" id="cONTACTText">CONTACT</div>
+        <div class="dev" id="dEVText">DEV</div>
+      </div>
+    </div>
+    <script>
+      var exploreContainer = document.getElementById("exploreContainer");
+      if (exploreContainer) {
+        exploreContainer.addEventListener("click", function (e) {
+          // Please sync "MacBook Pro 16" - Explore" to the project
+          window.location.href = "test/a/b";
+        });
+      }
+      
+      var topImagesText = document.getElementById("topImagesText");
+      if (topImagesText) {
+        topImagesText.addEventListener("click", function (e) {
+          // Please sync "MacBook Pro 16" - Explore" to the project
+        });
+      }
+      
+      var topContainer = document.getElementById("topContainer");
+      if (topContainer) {
+        topContainer.addEventListener("click", function (e) {
+          // Please sync "MacBook Pro 16" - Top Images " to the project
+        });
+      }
+      
+      var aBOUTText = document.getElementById("aBOUTText");
+      if (aBOUTText) {
+        aBOUTText.addEventListener("click", function (e) {
+          // Please sync "MacBook Pro 16" - ABOUT US" to the project
+        });
+      }
+      
+      var fAQText = document.getElementById("fAQText");
+      if (fAQText) {
+        fAQText.addEventListener("click", function (e) {
+            window.location.href = "faq.html";
+        });
+      }
+      
+      var cONTACTText = document.getElementById("cONTACTText");
+      if (cONTACTText) {
+        cONTACTText.addEventListener("click", function (e) {
+            window.location.href = "contact.html";
+        });
+      }
+      
+      var dEVText = document.getElementById("dEVText");
+      if (dEVText) {
+        dEVText.addEventListener("click", function (e) {
+            window.location.href = "dev.html";
+        });
+      }
+      </script>
+  </body>
 </html>
