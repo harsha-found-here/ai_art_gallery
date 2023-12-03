@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-mplus-1p-bold: "Mplus 1p Bold";
+  --font-inter: Inter;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-dm-sans: "DM Sans";
+
+  /* font sizes */
+  --font-size-3xl: 22px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-gray-100: #03030f;
+  --color-white: #fff;
+}
+
+.vector1-icon {
+  position: relative;
+  width: 585.28px;
+  height: 523.56px;
+}
+.vector2-icon,
+.vector3-icon {
+  position: relative;
+  width: 669.31px;
+  height: 696.08px;
+}
+.vector3-icon {
+  width: 826.69px;
+  height: 592.13px;
+}
+.vector-bg {
+  position: absolute;
+  top: -179px;
+  left: -151px;
+  width: 1801.52px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 586px;
+}
+.got-questions-or {
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+}
+.aigalleryemailcom {
+  font-weight: 700;
+  font-family: var(--font-dm-sans);
+  color: #b545e9;
+}
+.and-lets-start {
+  font-weight: 500;
+}
+.got-questions-or-ideas-shoot {
+  margin: 0;
+}
+.contact,
+.got-questions-or-container {
+  position: absolute;
+  display: inline-block;
+}
+.got-questions-or-container {
+  top: 478px;
+  left: calc(50% - 488px);
+  text-align: center;
+  width: 1004px;
+  height: 398px;
+}
+.contact {
+  top: 308px;
+  left: calc(50% - 403px);
+  font-size: 125px;
+  letter-spacing: 0.2em;
+  font-family: var(--font-plus-jakarta-sans);
+  width: 902px;
+  height: 226px;
+}
+.bottombg {
+  position: absolute;
+  top: 999px;
+  left: -151px;
+  background-color: var(--color-gray-100);
+  width: 2000px;
+  height: 118px;
+}
+.about,
+.contact1,
+.dev,
+.faq {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 90px;
+  flex-shrink: 0;
+}
+.contact1,.aBOUTText,
+.dev,
+.faq {
+  width: 49px;
+  cursor: pointer;
+}
+.contact1,
+.dev {
+  width: 126px;
+}
+.dev {
+  width: 52px;
+}
+.bottom {
+  position: absolute;
+  top: 1052px;
+  left: calc(50% - 332px);
+  background-color: var(--color-gray-100);
+  width: 665px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 116px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+}
+.home,
+.top-images {
+  position: relative;
+  letter-spacing: 0.2em;
+}
+.top-images {
+  cursor: pointer;
+}
+.top {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 240px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 63px;
+  cursor: pointer;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-mplus-1p-bold);
+}
+.macbook-pro-16-contactest {
+  position: relative;
+  background-color: #0d0e25;
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 35px;
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}
